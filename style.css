@@ -1,0 +1,146 @@
+/* Стилі для заголовку */
+header {
+    backdrop-filter: blur(10px); /* Застосовує розмиття заднього плану через елемент */
+    background-color: #00a53a5b;
+    height: 80px; /* Змінив висоту заголовку */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Збільшив значення z-index для забезпечення поверхневості заголовку */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Додав тінь для підвищення вигляду */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Стилі для заголовку - текст */
+.NmPr {
+    margin-top: 15px; /* Центрування тексту по вертикалі */
+    margin-left: 20px; /* Збільшив відступ зліва */
+    font-size: 24px; /* Зменшив розмір тексту */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+}
+
+/* Стилі для згорнутого блоку */
+summary {
+    position: absolute; /* Щоб встановити контент над заголовком */
+    color: #ffffff;
+    font-size: 18px;
+    top: 50px;
+    left: 30px;
+}
+
+/* Додав згорнутому блоку плавність при наведенні курсору */
+summary:hover {
+    cursor: pointer;
+}
+
+/* Стилі для списку */
+li {
+    font-size: 16px; /* Збільшив розмір тексту */
+    margin-left: 30px; /* Збільшив відступ зліва */
+    margin-top: 10px; /* Збільшив відступ зверху */
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px;
+    color: #ffffff;
+}
+
+/* Додав плавність при наведенні курсору на пункт списку */
+li:hover {
+    cursor: pointer;
+}
+/* Стилі для блоку з додатковою інформацією */
+.forma-ul {
+    top: 75px; /* Змінив відступ зверху */
+    left: 40px; /* Збільшив відступ зліва */
+    width: 300px; /* Змінив ширину блоку */
+    height: 280px;
+
+    background-color: rgba(0, 1, 18, 0.468);
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додав тінь */
+    position: fixed;
+    backdrop-filter: blur(50px);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.forma-ul ul {
+    margin-bottom: 8px; /* Задає відступ між елементами ul всередині блоку .forma-ul */
+    margin-top: 8px;
+    margin-left: 30px;
+}
+#one{
+    margin-left: -20px;
+    font-size: 18px;
+}
+.MainInfo {
+    position: absolute;
+    height: 82cm;
+    width: 75%;
+    left:  50%;
+    top: 225%;
+    transform: translate( -50%, -50%);
+    background-color: rgba(255, 255, 255, 0.853);
+    padding: 1.5cm;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2), -30px 30px 30px rgba(0, 0, 0, 0.2); /* Об'єднуємо дві тіні */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*.MainInfo h1 {
+    position: absolute;
+    margin-left: 15%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000d4;
+}*/
+
+.MainInfo h2 {
+    margin-bottom: 10px; /* Додаємо відступ знизу для кожного пункту списку */
+    font-size: 26px; /* Розмір тексту для пунктів списку */
+    margin-bottom: 15px;
+    color: #000112;
+}
+
+.MainInfo p {
+    margin-bottom: 15px; /* Додаємо відступ знизу для кожного параграфа */
+    font-size: 18px; /* Розмір тексту для параграфів */
+    line-height: 1.5; /* Висота рядка для параграфів */
+    color: #081e00;
+}
+
+.MainInfo::before {
+    content: "\00B7"; /* Додаємо крапку перед текстом */
+    margin-right: 5px; /* Задаємо відступ між крапкою та текстом */
+
+}
+
+.wpr{
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: -1cm
+}
+.MainInfo h2,p{
+    margin-top: 1cm;
+}
+.a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4d4d4d;
+}
+.footer {
+    backdrop-filter: blur(50px); /* Застосовує розмиття заднього плану через елемент */
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 433%;
+    transform: translateX(-50%);
+    background-color: rgba(58, 58, 58, 0.853);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+.video{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4d4d4d;
+}
